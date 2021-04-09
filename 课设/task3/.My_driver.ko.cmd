@@ -1,0 +1,1 @@
+cmd_/home/neko/Desktop/task3/My_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/neko/Desktop/task3/My_driver.ko /home/neko/Desktop/task3/My_driver.o /home/neko/Desktop/task3/My_driver.mod.o;  true
